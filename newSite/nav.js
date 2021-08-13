@@ -1,0 +1,1 @@
+document.write('<nav><a href=index.html>Home</a><a href=sites.html>My GitHub sites</a></nav>')
