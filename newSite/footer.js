@@ -1,0 +1,1 @@
+document.write(`<footer>CoderGreensparrow MIT Licence &copy 2021`)
