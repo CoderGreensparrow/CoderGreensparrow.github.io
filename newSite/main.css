@@ -4,10 +4,10 @@ body{
 }
 nav{
     background-color:#111;display:flex;justify-content:space-around;padding:10px;font-size:14px
-}nav a{text-decoration:0;color:#FFF;transition:all 0.2s}nav:hover a{font-size:18px}nav a:hover{background-color:#222}
+}nav a{text-decoration:0;color:#FFF;transition:all 0.2s}nav:hover a{transform:scale(1.2)}nav a:hover{background-color:#222}
 #greeting{
     background-color:#222;border:solid 10px#343;
     color:#FFF;
     width:100%;height:80%;
-    display:flex;justify-content:center;align-items:center;font-size:90px;text-align:center
-}
+    display:flex;justify-content:center;align-items:center;font-size:90px;text-align:center;transition:all 0.2s
+}#greeting:hover{font-size:100px}
