@@ -28,3 +28,8 @@ h1{
     background-color:#222;color:#FFF;font-size:40px;text-align:center
 }
 ul{margin:10px;border:solid 5px#003;border-radius:5px;background-color:#DDE;list-style-type:'- '}li{font-size:20px;margin:5px 0 5px 15px}.linethrough{text-decoration:line-through}
+#news{position:fixed;bottom:20px;right:20px;
+    background-color:#FA0;border:solid 10px #A50;border-radius:10px;
+    width:90%;max-width:300px;color:#000;font-size:20px}#news a{color:#009;transition:color 0.2s}#news a:hover{color:#119}
+#news #exit{background-color:#FB0;position:absolute;top:-32px;right:0;width:20px;height:20px}
+#news #exit:hover{cursor:pointer}
