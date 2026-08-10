@@ -1,1 +1,0 @@
-document.write('<nav><a href=/>Home</a><a href=sites.html>My GitHub sites</a></nav>')
