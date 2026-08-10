@@ -1,0 +1,42 @@
+.emoji {
+    display: inline-block;
+    height: 1.8cap;
+    vertical-align: -9%;
+}
+
+:root {
+    --font-sans: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --primary-color: #0018a8;
+}
+
+* {
+    font-family: var(--font-sans);
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+nav > a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    border-image-source: linear-gradient(to right, white 0%, white 49%, var(--primary-color) 49.5%, var(--primary-color) 50.5%, white 51%, white 100%);
+    border-image-width: 0 0 3px 0;
+    border-image-slice: 0%;
+    transition:
+            border-image-slice 0.3s cubic-bezier(0.8, 0, 0.2, 1),
+            transform 0.3s ease-in-out;
+    transform-origin: bottom left;
+}
+nav > a:hover {
+    color: var(--primary-color);
+    border-image-slice: 49%;
+}
+nav > a:active {
+    border-image-slice: 49.5%;
+    transform: rotateX(90deg);
+}
