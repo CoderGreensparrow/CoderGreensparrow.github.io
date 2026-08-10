@@ -32,7 +32,10 @@
         <li><a href="https://github.com/CoderGreensparrow/japanese-video-subtitles">japanese-video-subtitles</a>: Hirtelen sült projekt, amiben az OpenAI <a href="https://github.com/openai/whisper">Whisper</a> modelljét használtam japán videók átírásához és automatikus feliratozásához. A feliratozás sokoldalú és személyre szabható; vagyis egyszerre többféle feliratot tud egy feliratfájlba generálni a program. Bekapcsolható az eredeti japán átirata, opcionális <i><a href="https://hu.wikipedia.org/wiki/Furigana">furigana</a></i> felette, vagy akár <i><a href="https://hu.wikipedia.org/wiki/Hepburn-%C3%A1t%C3%ADr%C3%A1s">rómadzsi (nem magyar típusú japán átiratban)</a></i>. És természetesen gépi fordított feliratok is helyezhetők a videóra. Gyakorlatilag ez egy teljesen automatizált feliratozóprogram, ami akár japántanulásra is felhasználható.</li>
     </ul>
 </main>
-<footer>Copyright © 2026 <a class="author" href="https://github.com/CoderGreensparrow"><img src="img/profilkép.JPG" class="profile-picture"> CoderGreensparrow</a>. All rights reserved.</footer>
+<footer>Copyright © <span id="copyright-year"></span> <a class="author" href="https://github.com/CoderGreensparrow"><img src="img/profilkép.JPG" class="profile-picture"> CoderGreensparrow</a>. All rights reserved.</footer>
+<script>
+    document.getElementById("copyright-year").textContent = String(new Date().getFullYear());
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@17.0.3/dist/twemoji.min.js" integrity="sha384-Y5xukbGJwykbHHkTbLJykYLcBPFxrwipTbEh0puxhkz9CZ90raTPGe2Ks4vCxsYU" crossorigin="anonymous"></script>
 <script>twemoji.parse(document.body);</script>
 </body>
